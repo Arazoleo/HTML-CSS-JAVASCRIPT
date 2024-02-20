@@ -1,0 +1,152 @@
+body{
+    background: url("gifsukuna.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-size: 300px;
+    color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-family: Trattatello;
+     opacity: 0.8;
+     transition: font-size 0.5s, color 0.5s;
+}
+
+div.titulo:hover{
+    font-size: 350px ;
+    color: rgb(174, 6, 6);
+}
+
+
+.sub{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-family: Trattatello;
+    font-style: italic;
+
+}
+
+.l1{
+    position: relative;
+    left: 1250px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    color:white;
+    opacity: 0.5;
+    font-family: Trattatello;
+    transition: opacity 0.5s, font-size 0.5s;
+}
+
+.l2{
+    position: relative;
+    left: 1250px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    color:white;
+    opacity: 0.5;
+    font-family: Trattatello;
+    transition: opacity 0.5s, font-size 0.5s;
+
+}
+
+.l3{
+    position: relative;
+    left: 1250px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 40px;
+    color:white;
+    opacity: 0.5;
+    font-family: Trattatello;
+    transition: opacity 0.5s, font-size 0.5s;
+    
+}
+
+a.l1:hover{
+    opacity: 1;
+    font-size: 50px;
+
+}
+a.l2:hover{
+    opacity: 1;
+    font-size: 50px;
+
+}
+
+a.l3:hover{
+    opacity: 1;
+    font-size: 50px;
+
+}
+
+
+.leo{
+    font-size: 40px;
+    color:white;
+    font-family: Trattatello;
+    position: relative;
+    bottom: -750px;
+    left:100px;
+
+}
+
+.red{
+    background: red;
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px none red;
+    border-radius: 10px;
+    color: white;
+    transition: color 0.5s, background 0.5s, font-size 0.5s;
+
+}
+
+a.red:hover{
+    color: red;
+    background: black;
+    font-size:40px;
+
+}
+
+.exp{
+    background: rgb(85, 82, 82);
+    opacity: 0.5;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px none red;
+    border-radius: 10px;
+    color: white;
+    transition: color 0.5s, background 0.5s, font-size 0.5s, opacity 0.5s;
+
+}
+
+a.exp:hover{
+    color: blue;
+    background: white;
+    font-size: 40px;
+    opacity: 1;
+}
