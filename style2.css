@@ -1,0 +1,92 @@
+body{
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/f5bc31140178953.623ca3d42274c.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#post{
+    background: black;
+    border: 10px none white;
+    border-radius: 20px;
+    width: 35%;
+    height: 35%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    opacity: 0.4;
+    transition: opacity 0.5s, border 0.5s;
+    animation: Enter 1s ease-in forwards, Border 1s infinite alternate;
+}
+
+.parag{
+    position: absolute;
+    color: white;
+    font-family: Brush Script MT,cursive;
+    font-size: 30px;
+
+}
+
+div#post:hover{
+    opacity: 1;
+    border: 10px solid white;
+}
+
+.mou {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+    font-family: Brush Script MT, cursive;
+    font-size: 60px;
+    animation: Text 0.5s infinite alternate, Mouse 0.5s ease-in forwards;
+    text-shadow: 0 0 10px greenyellow, 0 0 20px greenyellow, 0 0 30px greenyellow, 0 0 40px greenyellow, 0 0 50px greenyellow;
+}
+
+@keyframes Text {
+    0% {
+        text-shadow: 0 0 10px greenyellow, 0 0 20px greenyellow, 0 0 30px greenyellow, 0 0 40px greenyellow, 0 0 50px greenyellow;
+    }
+    100% {
+        text-shadow: 0 0 20px greenyellow, 0 0 30px greenyellow, 0 0 40px greenyellow, 0 0 50px greenyellow, 0 0 60px greenyellow;
+    }
+}
+
+
+
+@keyframes Enter {
+    0% {
+        transform: translate(-250%) rotate(-45deg);
+        
+    }
+    100% {
+        transform: translate(-50%) rotate(0deg);
+        
+    }
+}
+
+
+
+@keyframes Mouse{
+     0%{
+        opacity: 0;
+       
+     }
+     100%{
+        opacity: 1;
+       
+     }    
+}
+
+@keyframes Border{
+    0%{
+        border: 10px solid blue;
+        box-shadow: 0 0 10px blue;
+    }
+    100%{
+        border: 10px solid aqua;
+        box-shadow: 0 0 50px aqua;
+    }
+}

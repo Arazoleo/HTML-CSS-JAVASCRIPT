@@ -1,0 +1,60 @@
+body{
+    background: url("https://cdn.wallpapersafari.com/75/96/IDYP5E.gif");
+    
+}
+
+#container{
+    background: pink;
+    opacity: 0.4;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    border: 10px none blue;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s, opacity 1s, background-color 0.5s;
+}
+
+.link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 25px;
+    color: purple;
+    font-family: Brush Script MT,cursive;
+    transition: color 0.5s, font-size 0.5s;
+}
+
+div#container:hover{
+    width: 290px;
+    height: 290px;
+    opacity: 1;
+    background-color: rgb(9, 9, 9);
+    border: 10px double white;
+    animation: corBorda 0.5s infinite alternate;
+}
+
+a.link:hover{
+    font-size: 37px;
+    color: yellow;
+}
+
+@keyframes corBorda{
+    100%{
+        border-color: blueviolet;
+        box-shadow: 0 0 50px blueviolet;
+    }
+    50%{
+        border-color: rgb(160, 133, 207);
+        box-shadow: 0 0 50px rgb(160, 133, 207);
+        
+    }
+    0%{
+        border-color: rgb(229, 200, 14);
+        box-shadow: 0 0 50px rgb(229, 200, 14);
+    }
+}
