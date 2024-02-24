@@ -1,0 +1,144 @@
+#title{
+    color: white;
+}
+#tec{
+    background: rgb(255, 191, 0);
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: gainsboro;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: font-size 0.5s, background 0.5s;
+   
+}
+
+
+a:link{
+    color: darkgoldenrod;
+}
+
+a:visited{
+   color: gray;
+}
+
+a.linke:hover{
+   background: white;
+   font-size: 25px;
+}
+
+a.doido:hover{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+a::active{
+    color: orange;
+}
+
+
+
+
+.post{
+    background: white;
+    padding-left: 40px;
+    width: 860px;
+    position: relative;
+    left: 400px;
+    right: 100px;
+    top: 50px;
+    
+}
+
+h2{
+    color: rgb(255, 191, 0);
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+p{
+ padding-left: 10px;
+ padding-top: 0px;
+ margin-bottom: -5px;
+}
+
+.box{
+    background: black;
+    padding: 20px;
+    float: left ;
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 30px;
+}
+
+.rodapé{
+    position: relative;
+    top: -10px;
+}
+
+.doido{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(234, 198, 56);
+    font-size: small;
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+
+.ind{
+    position: relative;
+    left: 5px;
+}
+
+.doido2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(234, 198, 56);
+    font-size: small;
+    position: relative;
+    left: 1px;
+    bottom: 5px;
+}
+
+.box2{
+    background: black;
+    padding: 15px;
+    float: left ;
+    color: white;
+    position: relative;
+    top: -150px;
+    left: -270px;
+}
+
+.box3{
+    background: rgb(76, 69, 69);
+    padding: 30px;
+    float: left ;
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 800px;
+    border: 5px double black;
+}
+
+.center{
+    text-align: center;
+}
+
+.txt{
+    font-family: cursive;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+}
